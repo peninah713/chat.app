@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <title>Frontend Mentor | Chat App Illustration</title>
+  </head>
+  <body>
+    <div class="bg-purple"></div>
+    <div class="bg-gray"></div>
+    <section>
+      <!-- Phone -->
+      <div class="phone">
+        <article></article>
+
+        <article>
+          <div>
+            <div class="avatar">
+              <box-icon name="chevron-left" color=" white"></box-icon>
+              <img src="./images/avatar.jpg" alt="avatar" />
+              <ul>
+                <li>Samuel Green</li>
+                <li>Available to Walk</li>
+              </ul>
+            </div>
+          </div>
+          <box-icon name="dots-vertical-rounded" color="white"></box-icon>
+        </article>
+
+        <div class="text">
+          <p class="text-left">That sounds great. I’d be happy with that.</p>
+
+          <p class="text-left">
+            Could you send over some pictures of your dog, please?
+          </p>
+          <div class="images">
+            <img src="./images/dog-image-1.jpg" alt="Dog1" />
+            <img src="./images/dog-image-2.jpg" alt="Dog2" />
+            <img src="./images/dog-image-3.jpg" alt="Dog3" />
+          </div>
+
+          <p class="text-right">Here are a few pictures. She’s a happy girl!</p>
+
+          <p class="text-right">Can you make it?</p>
+
+          <p class="text-left">
+            She looks so happy! The time we discussed works. How long shall I
+            take her out for?
+          </p>
+        </div>
+        <div class="radio">
+          <form>
+            <div class="radio-p">
+              <input type="radio" />
+              <p>minute walk</p>
+            </div>
+            <h2>$29</h2>
+          </form>
+          <form>
+            <div class="radio-p">
+              <input type="radio" />
+              <p>1 hour walk</p>
+            </div>
+            <h2>$49</h2>
+          </form>
+        </div>
+        <div class="textarea">
+          <form>
+            <input
+              type="text"
+              placeholder="Type a message…"
+              style="border: none"
+              ;
+            /><box-icon
+              name="chevron-right-circle"
+              type="solid"
+              color="hsl(271, 36%, 24%)"
+              size="md"
+              ;
+            ></box-icon>
+          </form>
+        </div>
+      </div>
+
+      <!-- Text -->
+      <div>
+        <h1>Simple booking</h1>
+
+        <p>
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
